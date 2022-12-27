@@ -1,0 +1,11 @@
+16:48:10: dlopen(/private/var/folders/8c/hxdq3p4j44xfcf44jc1tyjsw0000gp/T/AppTranslocation/22C504E8-4320-418C-8A46-DEB3E258A9BE/d/kicad.app/Contents/PlugIns/_pcbnew.kiface, 0x000A): Library not loaded: '/System/Library/Frameworks/Python.framework/Versions/2.7/Python'
+  Referenced from: '/private/var/folders/8c/hxdq3p4j44xfcf44jc1tyjsw0000gp/T/AppTranslocation/22C504E8-4320-418C-8A46-DEB3E258A9BE/d/kicad.app/Contents/PlugIns/_pcbnew.kiface'
+  Reason: tried: '/System/Library/Frameworks/Python.framework/Versions/2.7/Python' (no such file), '/Library/Frameworks/Python.framework/Versions/2.7/Python' (no such file)
+16:48:10: IO_ERROR: Fatal Installation Bug. File:
+'/private/var/folders/8c/hxdq3p4j44xfcf44jc1tyjsw0000gp/T/AppTranslocation/22C504E8-4320-418C-8A46-DEB3E258A9BE/d/kicad.app/Contents/PlugIns/_pcbnew.kiface'
+could not be loaded
+Perhaps a shared library (.dll or .so) file is missing.
+From command line: argv[0]:
+'/private/var/folders/8c/hxdq3p4j44xfcf44jc1tyjsw0000gp/T/AppTranslocation/22C504E8-4320-418C-8A46-DEB3E258A9BE/d/kicad.app/Contents/MacOS/kicad'
+
+from kiway.cpp : KiFACE() : line 225
